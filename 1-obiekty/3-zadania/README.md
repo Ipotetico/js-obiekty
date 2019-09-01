@@ -7,12 +7,9 @@ Stwórz prosty obiekt **spaceShip**, który będzie miał:
 - **name** ustawioną na Enterprise
 - **currentLocation** ustawioną na Earth
 - **flyDistance** ustawione na 0
-- **flyTime** ustawione na 0
 
 ## Metody:
-- **flyTo(place, distance)** która ustawi obiektowi właściwość `currentLocation` na odpowiednie miejsce podane w parametrze `place`.
-
-    Na podstawie `distance` ustawi właściwość `flyTime` i `flyDistance`.
+- **flyTo(place, distance)** która ustawi obiektowi właściwość `currentLocation` na odpowiednie miejsce podane w parametrze `place` oraz doliczy przebyty dystans do `flyDistance`.
 
 - Metodę **showInfo()** która wypisze w konsoli tekst:
 
@@ -21,10 +18,10 @@ Stwórz prosty obiekt **spaceShip**, który będzie miał:
     --------------------
     Statek Enterprise lecący z szybkością ....
     doleciał do miejsca .....
-    Statek przeleciał już całkowity dystans .... w czasie .... lat świetlnych
+    Statek przeleciał już całkowity dystans ....
     ```
 
-- Metodę **meetClingon()** która wykona 100 losowań. Jeżeli minimum połowa będzie pozytywna, wtedy powinna wypisać w konsoli:
+- Metodę **meetClingon()** która wykona 100 losowań 0-1. Jeżeli minimum połowa będzie pozytywna (większa niż połowa), wtedy powinna wypisać w konsoli:
 
     ```Statek .... będący w okolicy .... zwycięsko wyszedł ze spotkania z Klingonami```
 

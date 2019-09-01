@@ -7,6 +7,7 @@ Stwórz obiekt o nazwie **text**.
 Obiekt ten powinien mieć metody:
 
 - **check(txt, word)**
+
     która zwraca true/false jeżeli w tekście `txt` znajduje się szukane słowo `word`
 
     ```
@@ -15,6 +16,7 @@ Obiekt ten powinien mieć metody:
     ```
 
 - **getCount(txt)**
+
     Zwraca liczbę liter w tekście `txt`. Uwaga znaki interpunkcyjne też traktujmy jako litery
 
     ```
@@ -23,6 +25,7 @@ Obiekt ten powinien mieć metody:
     ```
 
 - **getWordsCount(txt)**
+
     zwraca liczbę słów w przekazanym tekście
 
     ```
@@ -31,6 +34,7 @@ Obiekt ten powinien mieć metody:
     ```
 
 - **setCapitalize(txt)**
+
     zwraca nowy tekst tak zamieniony, że każde słowo zaczyna się z dużej litery
 
     ```
@@ -39,6 +43,7 @@ Obiekt ten powinien mieć metody:
     ```
 
 - **setMix(txt)**
+
     zwraca nowy tekst z naprzemiennie dużymi/małymi literami. Spację i znaki interpunkcyjne traktujemy jako litery.
 
     ```
@@ -47,6 +52,7 @@ Obiekt ten powinien mieć metody:
     ```
 
 - **generateRandom(lng)**
+
     Generuje tekst o długości lng który składa się z losowych liter
 
     ```
