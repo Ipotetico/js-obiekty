@@ -20,14 +20,14 @@ Stwórz obiekt **book**, który będzie miał:
 
 - **findByName(name)**
 
-    która wypisze w konsoli pierwszego użytkownika, który ma szukane imię
+    która zwróci pierwszego użytkownika, który ma szukane imię
     lub false jeżeli nie znajdzie.
 
 - **findByPhone(phone)**
 
-    która wypisze w konsoli pierwszego użytkownika, który ma szukany telefon
-    lub false jeżeli nie znajdzie
+    która zwróci pierwszego użytkownika, który ma szukany telefon
+    lub false jeżeli nie znajdzie.
 
 - **getCount()**
 
-    która wypisze ile jest użytkowników w tabeli
+    która zwróci ile jest użytkowników w tabeli
