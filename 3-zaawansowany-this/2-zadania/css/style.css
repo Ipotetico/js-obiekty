@@ -1,3 +1,6 @@
+body {
+    padding: 0;
+}
 button {
     padding: 0.8em 3em;
     background: tomato;
@@ -9,9 +12,18 @@ button {
     border-radius: 0.2rem;
     transition: 0.5s background-color, 0.5s box-shadow;
     cursor: pointer;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
 }
 
 button:hover {
     background: #AD1A00;
     color:#fff;
+}
+
+@media (max-width: 500px) {
+    button {
+        width: calc(100% - 10px);
+    }
 }
