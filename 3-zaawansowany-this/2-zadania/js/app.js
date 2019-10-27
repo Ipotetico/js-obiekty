@@ -24,9 +24,9 @@ MyObj.prototype.printSmall = function() {
 };
 
 MyObj.prototype.bindBtn = function() {
-    document.querySelector('#button1').addEventListener("click", this.printBig);
-    document.querySelector('#button2').addEventListener("click", this.printSmall);
-    document.querySelector('#button3').addEventListener("click", function() {
+    document.querySelector('#button1').addEventListener("click", this.printBig.bind(this));
+    document.querySelector('#button2').addEventListener("click", this.printSmall.bind(this));
+    document.querySelector('#button3').addEventListener("click", () => {
         this.printNormal();
     });
 };
