@@ -44,7 +44,7 @@ Wykorzystaj odpowiednie metody dzielące tekst na tablicę, sortujące tablicę 
 Rozbuduj obiekty typu String dodając im metodę **reverse()**, która po odpaleniu dla tekstu zwróci jego odbicie:
 
 ```
-"Ala ma kota".mirror() === "atok am alA"
+"Ala ma kota".reverse() === "atok am alA"
 ```
 
 ## Zadanie 5
